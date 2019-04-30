@@ -8,7 +8,7 @@ import theme from "./theme";
 function App() {
   return (
     <div className="App">
-      {/* // add global SASS wrapper */}
+      {/* // add global SASS wrapper. Maybe a Styled-Components <ThemeProvider/> here? */}
       <Grommet theme={theme}>
         <Home />
       </Grommet>
